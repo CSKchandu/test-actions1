@@ -6,5 +6,4 @@ jobs:
     name: Build
     runs-on: [self-hosted, linux, x64]
     steps:
-    - name: sample
-      uses: appleboy/ssh-action@master
+      - uses: appleboy/ssh-action@master
