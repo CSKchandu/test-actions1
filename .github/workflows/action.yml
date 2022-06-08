@@ -1,3 +1,4 @@
+runs-on: [self-hosted, linux, x64, gpu]
 name: remote ssh command
 on: [push]
 jobs:
